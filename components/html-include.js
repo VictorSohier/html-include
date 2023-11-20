@@ -1,4 +1,4 @@
-class HxInclude extends HTMLElement
+class HtmlInclude extends HTMLElement
 {
 	constructor()
 	{
@@ -27,4 +27,4 @@ class HxInclude extends HTMLElement
 	}
 }
 
-window.customElements.define("html-include", HxInclude);
+window.customElements.define("html-include", HtmlInclude);
